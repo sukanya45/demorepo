@@ -10,7 +10,7 @@ const HomePage = () => {
                 <h2 className="text-3xl sm:text-7xl font-bold text-white">i'm Full Stack Developer</h2>
                 <p className="text-gray-500 py-4 max-w-md">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam cum esse praesentium pariatur delectus 
                     recusandae laborum provident earum, dolorem quas dolore omnis deleniti aliquid quos a 
-                    voluptatum, molestias quod architecto.</p>
+                    voluptatum, molestias quod architecto. looking for more opportunities</p>
                     <div>
                         <Link to='portfolio' smooth duration={500} className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500
                         cursor-pointer
@@ -25,7 +25,7 @@ const HomePage = () => {
             </div>
 
             <div>
-                <img src={HeroImage} alt="My Profile" className="  rounded-2xl mx-auto w-2/3 md:full"/>
+                <img src={HeroImage} alt="My Profile" className="  rounded-2xl mx-auto w-full bg-transperant md:full"/>
             </div>
         </div>
     </div>
